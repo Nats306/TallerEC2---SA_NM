@@ -3,6 +3,9 @@ mkdir fastapi
 cd fastapi
 git clone https://github.com/Nats306/TallerEC2---SA_NM.git .
 
+sudo apt update && sudo apt upgrade -y
+sudo apt install python3 python3-pip -y
+sudo apt install python3.12-venv
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
